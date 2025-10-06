@@ -60,7 +60,7 @@
 
 ## About
 
-All In One USB Drive is a curated collection of diagnostic and rescue tools, operating system, and application installers, along with a step‑by‑step guide for preparing and using the USB drive. The repository serves as a reference for building a "Swiss‑army knife" USB drive that bundles essential utilities into a single, updatable, portable toolkit.
+All In One USB Drive is a curated collection of diagnostic and rescue tools, operating system, and application installers, along with a step‑by‑step guide for preparing and using the USB drive. The repository serves as a reference for building a "Swiss‑army knife" USB drive that bundles essential utilities into a single, updatable, portable toolkit.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,12 +141,18 @@ All In One USB Drive is a curated collection of diagnostic and rescue tools,
 
 ## FAQ
 
-### How to launch Netboot.xyz?
+**Q: How to launch Netboot.xyz?**  
+A: Connect PC to ethernet before turning on PC
 
-1. Connect PC to ethernet
-2. Boot multiboot USB drive
+<br />
 
-### How to activate Microsoft?
+**Q: Where is GParted and Memtest86+?**  
+A: It is included in SystemRescue
+
+<br />
+
+**Q: How to activate Microsoft?**  
+A: Run [Microsoft Activation Script][massgrave]
 
 1. Install Microsoft Windows or Microsoft Office 365
 2. Launch Windows
@@ -250,12 +256,13 @@ Project Link: https://github.com/fathulfahmy/aio-usb-drive
 [product-screenshot]: images/screenshot.png
 [ventoy]: https://www.ventoy.net/en/download.html
 [system-rescue]: https://www.system-rescue.org/Download/
-[clonezilla]: https://clonezilla.org/downloads.php
+[clonezilla]: https://clonezilla.org/downloads/download.php?branch=stable
 [netbootxyz]: https://netboot.xyz/downloads/
-[debian]: https://www.debian.org/download
+[debian]: https://cdimage.debian.org/debian-cd/
 [ubuntu]: https://ubuntu.com/download/desktop
 [fedora-linux]: https://fedoraproject.org/workstation/download
-[arch-linux]: https://archlinux.org/download/
+[arch-linux]: https://archlinux.org/download/#http-downloads
 [hirens-bootcd-pe]: https://www.hirensbootcd.org/download/
 [windows11]: https://www.microsoft.com/en-us/software-download/windows11
 [office365]: https://gravesoft.dev/office_c2r_links
+[massgrave]: https://massgrave.dev/
