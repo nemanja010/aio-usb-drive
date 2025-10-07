@@ -74,6 +74,7 @@ All In One USB Drive is a curated collection of diagnostic and rescue tools, ope
 | ------------ | --------------------------------------------------------- | -------------------------------------- |
 | SystemRescue | Linux-based rescue toolkit                                | [Download SystemRescue][system-rescue] |
 | Clonezilla   | Disk imaging/cloning                                      | [Download Clonezilla][clonezilla]      |
+| Rescuezilla  | Disk imaging/cloning (suggested on Reddit)                | [Download Rescuezilla][rescuezilla]    |
 | Netboot.xyz  | Network required rescue toolkit and OS installer          | [Download Netboot.xyz][netbootxyz]     |
 | Debian       | LTS Linux distro live environment and installer           | [Download Debian][debian]              |
 | Ubuntu       | LTS Linux distro live environment and installer           | [Download Ubuntu][ubuntu]              |
@@ -87,6 +88,17 @@ All In One USB Drive is a curated collection of diagnostic and rescue tools, ope
 | Hiren's BootCD PE | Windows 11-based rescue toolkit         | [Download Hiren's BootCD PE][hirens-bootcd-pe] |
 | Windows 11        | Microsoft Windows 11 installer          | [Download Windows 11][windows11]               |
 | OfficeSetup       | Microsoft Office 365 Pro Plus installer | [Download Office365][office365]                |
+
+### Aditional tools
+
+| Name              | Description                             | Download                                       |
+| ----------------- | --------------------------------------- | ---------------------------------------------- |
+| Winutil           | Windows toolset                         | (https://github.com/ChrisTitusTech/winutil?tab=readme-ov-file) |
+| Notepad++        |           | (https://github.com/notepad-plus-plus/notepad-plus-plus)               |
+| DevToys       | Developer toys | (https://github.com/DevToys-app/DevToys)                |
+| Sergei Strelec toolkit | Similar to HirensBoot | (https://sergeistrelec.name/winpe-10-8-sergei-strelec-english/)|
+| Medicat | Similar to HirensBoot | (https://medicatusb.com/#downloads)|
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -257,6 +269,7 @@ Project Link: https://github.com/fathulfahmy/aio-usb-drive
 [ventoy]: https://www.ventoy.net/en/download.html
 [system-rescue]: https://www.system-rescue.org/Download/
 [clonezilla]: https://clonezilla.org/downloads/download.php?branch=stable
+[rescuezilla]: https://rescuezilla.com/
 [netbootxyz]: https://netboot.xyz/downloads/
 [debian]: https://cdimage.debian.org/debian-cd/
 [ubuntu]: https://ubuntu.com/download/desktop
