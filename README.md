@@ -181,6 +181,16 @@ irm https://get.activated.win | iex
 - Ohook - Permanently Activate Office
 - TSforge - Permanently Activate Windows/ESU/Office
 
+If the above is blocked (by ISP/DNS), try this (needs updated Windows 10 or 11):
+```sh
+iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.activated.win | Out-String)
+```
+
+For Windows 7 and later:
+```sh
+iex ((New-Object Net.WebClient).DownloadString('https://get.activated.win'))
+```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
